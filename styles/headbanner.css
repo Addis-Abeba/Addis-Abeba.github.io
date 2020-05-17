@@ -1,0 +1,96 @@
+@charset "UTF-8";
+		.mainToursDisplay_module {			
+			overflow: hidden;
+		}
+		.mainToursDisplay_contain {
+			height: 460px
+		}
+		.mainToursDisplay, .img_fading {
+			height: 860px;
+		}
+		.mainToursDisplay {			
+			background: url('/files/public/img/slide3.jpg') no-repeat center;
+			background-size: cover;
+		}
+		.mainToursDisplay .img_fading {
+			background-color: rgba(0,0,0,0.4); 			
+		}
+		.mainToursDisplay .mtd_heading {
+			padding-top: 210px;
+			max-width: 1140px;
+			margin: auto;
+			text-align: center;
+			color: white;
+			font-size: 22px;
+		}
+		.mainToursDisplay .mtd_heading h1{
+			font-size: 2.9em;
+			margin: 20px;
+		}
+		.mainToursDisplay .mtd_heading .mtd_links a {
+			margin: 0 2px;
+			text-transform: uppercase;
+			font-weight: normal;
+			color: inherit;
+			background: rgba(0, 0, 0, 0.3);
+			padding: 7px 21px;
+			transition: all 0.5s
+		}
+		.mtd_links{
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: center;
+		}
+		.mainToursDisplay .mtd_heading .mtd_links a:hover{
+			background: rgba(255, 255, 255, 0.75);
+			color: #dd137b; 
+		}
+		.mainToursDisplay .mtd_heading .mtd_links a:focus, .mainToursDisplay .mtd_heading .mtd_links a:active, 
+		a#active {
+			color: #fff;
+			background: #dd137b;
+		}
+		.mainFilterHolder {
+			position: initial !important;
+		}
+	@media only screen and (max-width: 991px) {
+		.mainToursDisplay, .img_fading {
+			height: 920px;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.mainToursDisplay, .img_fading {
+			height: 980px;
+		}	
+	}
+	
+	@media only screen and (max-width: 502px) {
+		.mainToursDisplay_contain {
+			height: 360px
+		}
+		.mainToursDisplay, .img_fading {
+			height: 880px;
+		}
+		.mainToursDisplay .mtd_heading {
+			padding-top: 125px;
+		}
+		.mainToursDisplay .mtd_heading {
+			font-size: 16px;
+		}
+	}
+	@media only screen and (max-width: 337px) {
+		.mainToursDisplay, .img_fading {
+			height: 920px;
+		}
+	}
+	@media only screen and (max-width: 400px) {
+		.mainToursDisplay .mtd_heading .mtd_links a {
+			padding: 5px 13px;
+		}
+		.mainToursDisplay .mtd_heading h1{
+			font-size: 2.2em;
+		}
+	}
