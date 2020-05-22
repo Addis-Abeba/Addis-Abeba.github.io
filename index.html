@@ -144,8 +144,8 @@
 					<div class="search_tabs_container">
 						<div class="search_tabs d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/island.png" alt="">Туры</div>
-							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/suitcase.png" alt=""><span>Отели</span></div>							
-							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/departure.png" alt="">Авиабилеты</div>
+							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/departure.png" alt=""><span>Авиабилеты</span></div>							
+							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/suitcase.png.png" alt="">Отели</div>
 							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/bus.png" alt="">Аренда авто</div>							
 							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/cruise.png" alt="">Круизы</div>
 							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/diving.png" alt="">Досуг</div>
@@ -153,6 +153,10 @@
 					</div>
 
 					<div class="serch_navlist">
+						
+					<!-- Search Panel -->
+
+					<div class="search_panel active">
 						<script>
 						    var osGeo = 'Египет'; /* Страна, курорт или отель по умолчанию в форме поиска */
 						    var osDefaultDeparture = ''; /* ID города или название на языке модуля */
@@ -169,203 +173,110 @@
 						<link rel="Stylesheet" href="https://export.otpusk.com/os/onsite/form.css" type="text/css" />						
 						<link rel="Stylesheet" href="https://export.otpusk.com/os/onsite/result.css" type="text/css" />
 						<link rel="Stylesheet" href="https://export.otpusk.com/os/onsite/tour.css" type="text/css" />
-						<script src="https://export.otpusk.com/api/session?access_token=2716a-a6aa2-8ce60-439c2-641a5"></script>
-						<!-- <script src="https://export.otpusk.com/api/session?access_token=30f43-5ce35-6faf0-b627a-14daa"></script> -->
+						<!-- <script src="https://export.otpusk.com/api/session?access_token=2716a-a6aa2-8ce60-439c2-641a5"></script> -->
+						<script src="https://export.otpusk.com/api/session?access_token=30f43-5ce35-6faf0-b627a-14daa"></script>
 						<script src="https://export.otpusk.com/js/onsite/"></script>
 						<!-- <script src="https://export.otpusk.com/js/order"></script> -->
 						<!-- <script src="https://export.otpusk.com/jsapi/onsite.min.js?_time=20200515"></script> --></div>
-
-					<!-- Search Panel -->
-
-					<div class="search_panel active">
-
-						<!-- <div class="search_tabs_container">
-							</div> -->
 						
-							<!-- <form action="#" id="search_form_1" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-							<div class="search_item">
+					</div>
+
+					<!-- Search Panel -->
+
+					<div class="search_panel">
+						<script charset="utf-8" type="text/javascript">
+						    window.TP_FORM_SETTINGS = window.TP_FORM_SETTINGS || {};
+						    window.TP_FORM_SETTINGS["e904a605c00889ca7102909278a446e6"] = {
+							"handle": "e904a605c00889ca7102909278a446e6",
+							"widget_name": "tpa_search_form",
+							"border_radius": "20",
+							"additional_marker": null,
+							"width": null,
+							"show_logo": false,
+							"show_hotels": true,
+							"form_type": "avia",
+							"locale": "ru",
+							"currency": "uah",
+							"sizes": "default",
+							"search_target": "_self",
+							"active_tab": "avia",
+							"search_host": "flights.vsetravel.pp.ua/flights",
+							"hotels_host": "search.hotellook.com",
+							"hotel": "",
+							"hotel_alt": "Все отели России и других стран на Hotellook.ru. Описание, фотографии, отзывы посетителей.",
+							"avia_alt": "Aviasales - поиск и бронирование дешевых авиабилетов онлайн, лучшие тарифы на билеты",
+							"retargeting": true,
+							"trip_class": "economy",
+							"depart_date": null,
+							"return_date": null,
+							"check_in_date": null,
+							"check_out_date": null,
+							"no_track": false,
+							"powered_by": true,
+							"id": 227099,
+							"marker": 283433,
+							"origin": {
+								"name": "Киев",
+								"iata": "IEV"
+							},
+							"destination": {
+								"name": ""
+							},
+							"color_scheme": {
+								"name": "white_orange",
+								"icons": "icons_orange",
+								"background": "#ffffff",
+								"color": "#000000",
+								"border_color": "#cccccc",
+								"button": "#feb20e",
+								"button_text_color": "#ffffff",
+								"input_border": "#cccccc"
+							},
+							"hotels_type": "hotellook_host",
+							"best_offer": {
+								"locale": "ru",
+								"currency": "uah",
+								"marker": 283433,
+								"search_host": "flights.vsetravel.pp.ua/flights",
+								"offers_switch": false,
+								"api_url": "//www.travelpayouts.com/minimal_prices/offers.json",
+								"routes": []
+							},
+							"hotel_logo_host": null,
+							"search_logo_host": "www.aviasales.ru",
+							"hotel_marker_format": null,
+							"hotelscombined_marker": null,
+							"responsive": true,
+							"height": 409
+						};
+						</script>
+						<script charset="utf-8" src="//www.travelpayouts.com/widgets/e904a605c00889ca7102909278a446e6.js?v=2021" async></script>
+
 						
-								<div>Страна, курорт или отель</div>
-								<input type="text" class="destination search_input" placeholder="Где хотите отдохнуть?" required="required">
-							</div>
-							<div class="search_item">
-								<div>Дата вылета</div>
-								<input type="text" class="check_in search_input" placeholder="10-22 мая">
-							</div>
-							<div class="search_item">
-								<div>Ночей в туре</div>
-								<input type="text" class="check_out search_input" placeholder="7 ночей">
-							</div>
-							<div class="search_item">
-								<div>Количество туристов</div>
-								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-								</select>
-							</div>
-							<div class="search_item">
-								<div>Дети</div>
-								<select name="children" id="children_1" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-								</select>
-							</div>
-							<button class="button search_button">Найти тур</button>
-						</form> -->
-					</div>
-
-					<!-- Search Panel -->
-
-					<div class="search_panel">
-						<script charset="utf-8" src="//www.travelpayouts.com/widgets/e904a605c00889ca7102909278a446e6.js?v=2020" async></script>
 					</div>
 						
 					<!-- Search Panel -->
 
 					<div class="search_panel">
-						<form action="#" id="search_form_3" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-							<div class="search_item">
-								<div>destination</div>
-								<input type="text" class="destination search_input" required="required">
-							</div>
-							<div class="search_item">
-								<div>check in</div>
-								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>check out</div>
-								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>adults</div>
-								<select name="adults" id="adults_3" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<div class="search_item">
-								<div>children</div>
-								<select name="children" id="children_3" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<button class="button search_button">search<span></span><span></span><span></span></button>
-						</form>
+						
 					</div>
 
 					<!-- Search Panel -->
 
 					<div class="search_panel">
-						<form action="#" id="search_form_4" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-							<div class="search_item">
-								<div>destination</div>
-								<input type="text" class="destination search_input" required="required">
-							</div>
-							<div class="search_item">
-								<div>check in</div>
-								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>check out</div>
-								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>adults</div>
-								<select name="adults" id="adults_4" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<div class="search_item">
-								<div>children</div>
-								<select name="children" id="children_4" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<button class="button search_button">search<span></span><span></span><span></span></button>
-						</form>
+						
 					</div>
 
 					<!-- Search Panel -->
 
 					<div class="search_panel">
-						<form action="#" id="search_form_5" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-							<div class="search_item">
-								<div>destination</div>
-								<input type="text" class="destination search_input" required="required">
-							</div>
-							<div class="search_item">
-								<div>check in</div>
-								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>check out</div>
-								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>adults</div>
-								<select name="adults" id="adults_5" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<div class="search_item">
-								<div>children</div>
-								<select name="children" id="children_5" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<button class="button search_button">search<span></span><span></span><span></span></button>
-						</form>
+						
 					</div>
 
 					<!-- Search Panel -->
 
 					<div class="search_panel">
-						<form action="#" id="search_form_6" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-							<div class="search_item">
-								<div>destination</div>
-								<input type="text" class="destination search_input" required="required">
-							</div>
-							<div class="search_item">
-								<div>check in</div>
-								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>check out</div>
-								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>adults</div>
-								<select name="adults" id="adults_6" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<div class="search_item">
-								<div>children</div>
-								<select name="children" id="children_6" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-							<button class="button search_button">search<span></span><span></span><span></span></button>
-						</form>
+						
 					</div>
 				</div>
 			</div>
